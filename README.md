@@ -30,5 +30,6 @@ you act on it without hand-rolling the dangerous parts.
 | Nonce & Replay Protection | [`nonce-replay/SKILL.md`](nonce-replay/SKILL.md) | Nonce & Replay Attacks |
 | HMAC & Transaction Signing | [`hmac-transaction-signing/SKILL.md`](hmac-transaction-signing/SKILL.md) | HMAC Parts 1–2 |
 | Dynamic & Signed Action Links | [`signed-links/SKILL.md`](signed-links/SKILL.md) | Signed Links |
+| Secure Object Access (IDOR/BOLA) | [`indirect-object-references/SKILL.md`](indirect-object-references/SKILL.md) | Indexed References Parts 1–2 |
 
 _More topics are added lecture by lecture as the course grows._
