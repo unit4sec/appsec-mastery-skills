@@ -27,5 +27,6 @@ you act on it without hand-rolling the dangerous parts.
 | OAuth Security | [`oauth-security/SKILL.md`](oauth-security/SKILL.md) | OAuth Parts 1–3 |
 | Strong Customer Authentication | [`strong-customer-authentication/SKILL.md`](strong-customer-authentication/SKILL.md) | SCA Parts 1–2 |
 | WebAuthn & FIDO (Passkeys) | [`webauthn-fido/SKILL.md`](webauthn-fido/SKILL.md) | WebAuthn Parts 1–2 |
+| Nonce & Replay Protection | [`nonce-replay/SKILL.md`](nonce-replay/SKILL.md) | Nonce & Replay Attacks |
 
 _More topics are added lecture by lecture as the course grows._
