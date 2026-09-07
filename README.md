@@ -33,5 +33,6 @@ you act on it without hand-rolling the dangerous parts.
 | Secure Object Access (IDOR/BOLA) | [`indirect-object-references/SKILL.md`](indirect-object-references/SKILL.md) | Indexed References Parts 1–2 |
 | Rate Limiting | [`rate-limiting/SKILL.md`](rate-limiting/SKILL.md) | Rate Limiting |
 | Bot Management, CAPTCHA & Fingerprinting | [`captcha-device-fingerprinting/SKILL.md`](captcha-device-fingerprinting/SKILL.md) | CAPTCHA Parts 1–2 |
+| Mutual TLS (mTLS) | [`mutual-tls/SKILL.md`](mutual-tls/SKILL.md) | Mutual TLS |
 
 _More topics are added lecture by lecture as the course grows._
