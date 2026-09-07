@@ -31,5 +31,6 @@ you act on it without hand-rolling the dangerous parts.
 | HMAC & Transaction Signing | [`hmac-transaction-signing/SKILL.md`](hmac-transaction-signing/SKILL.md) | HMAC Parts 1–2 |
 | Dynamic & Signed Action Links | [`signed-links/SKILL.md`](signed-links/SKILL.md) | Signed Links |
 | Secure Object Access (IDOR/BOLA) | [`indirect-object-references/SKILL.md`](indirect-object-references/SKILL.md) | Indexed References Parts 1–2 |
+| Rate Limiting | [`rate-limiting/SKILL.md`](rate-limiting/SKILL.md) | Rate Limiting |
 
 _More topics are added lecture by lecture as the course grows._
