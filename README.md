@@ -28,5 +28,6 @@ you act on it without hand-rolling the dangerous parts.
 | Strong Customer Authentication | [`strong-customer-authentication/SKILL.md`](strong-customer-authentication/SKILL.md) | SCA Parts 1–2 |
 | WebAuthn & FIDO (Passkeys) | [`webauthn-fido/SKILL.md`](webauthn-fido/SKILL.md) | WebAuthn Parts 1–2 |
 | Nonce & Replay Protection | [`nonce-replay/SKILL.md`](nonce-replay/SKILL.md) | Nonce & Replay Attacks |
+| HMAC & Transaction Signing | [`hmac-transaction-signing/SKILL.md`](hmac-transaction-signing/SKILL.md) | HMAC Parts 1–2 |
 
 _More topics are added lecture by lecture as the course grows._
