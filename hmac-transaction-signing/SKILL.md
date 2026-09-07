@@ -1,6 +1,6 @@
 ---
 name: implement-request-signing
-description: Sign and verify API requests, transactions, and webhooks with HMAC (or asymmetric signatures) — an unambiguous canonical string that covers method, path, sorted query, body hash, timestamp, and nonce; constant-time verification; replay protection; server-pinned algorithm; and key rotation via a KMS. Use for payment/transaction integrity, service-to-service auth, and webhook receivers. Never hand-roll the hashing; get the canonical string and check order right.
+description: Sign and verify API requests, transactions, and webhooks with HMAC (or asymmetric signatures): an unambiguous canonical string that covers method, path, sorted query, body hash, timestamp, and nonce; constant-time verification; replay protection; server-pinned algorithm; and key rotation via a KMS. Use for payment/transaction integrity, service-to-service auth, and webhook receivers. Never hand-roll the hashing; get the canonical string and check order right.
 ---
 
 # Implement Request / Transaction Signing

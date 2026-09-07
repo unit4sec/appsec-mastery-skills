@@ -1,12 +1,12 @@
 ---
 name: implement-strong-customer-authentication
-description: Implement Strong Customer Authentication (SCA) and dynamic linking for payments/high-risk actions — 2+ independent factors from different categories, phishing-resistant factors, transaction-bound approval (amount+payee signed), risk-based step-up, and 3-D Secure 2 integration. Use when building payment flows, PSD2-regulated actions, or high-value confirmations. Prefer a certified PSP/3DS provider + platform authenticators over hand-rolled OTP.
+description: Implement Strong Customer Authentication (SCA) and dynamic linking for payments/high-risk actions: 2+ independent factors from different categories, phishing-resistant factors, transaction-bound approval (amount+payee signed), risk-based step-up, and 3-D Secure 2 integration. Use when building payment flows, PSD2-regulated actions, or high-value confirmations. Prefer a certified PSP/3DS provider + platform authenticators over hand-rolled OTP.
 ---
 
 # Implement Strong Customer Authentication (SCA)
 
 You are implementing SCA for a payment or high-risk action. Follow this skill. **Do not
-hand-roll OTP/crypto or a 3-D Secure stack** — use a certified PSP/3DS provider and
+hand-roll OTP/crypto or a 3-D Secure stack**: use a certified PSP/3DS provider and
 platform authenticators (passkeys/FIDO2). Your job is to enforce the rules below and
 bind approval to the transaction.
 
@@ -45,12 +45,12 @@ bind approval to the transaction.
 
 ## 5. Exemptions & liability (PSD2)
 - SCA exemptions exist (low-value ~<€30 with cumulative caps; trusted beneficiary; **TRA** while fraud
-  rate stays under thresholds — tighter thresholds for higher amounts). Apply them via your PSP.
+  rate stays under thresholds: tighter thresholds for higher amounts). Apply them via your PSP.
 - **An exemption reduces friction, not liability.** Track fraud rates; lose the exemption if they rise.
 
 ## 6. Use providers/libraries (don't hand-roll)
 - AuthN: WebAuthn/passkeys (`@simplewebauthn/*`, platform APIs), or an IdP that supports FIDO2 + step-up.
-- Payments/3DS2: a certified PSP (Stripe, Adyen, Checkout.com, Braintree, etc.) — do not build a 3DS stack.
+- Payments/3DS2: a certified PSP (Stripe, Adyen, Checkout.com, Braintree, etc.): do not build a 3DS stack.
 - Never build your own OTP delivery/verification as the primary factor.
 
 ## Final checklist
@@ -61,7 +61,7 @@ bind approval to the transaction.
 - [ ] Risk-based step-up; fail toward more auth.
 - [ ] 3-D Secure 2 via PSP; result validated server-side.
 - [ ] Exemptions handled by PSP; fraud-rate monitoring in place.
-- [ ] Implemented via certified provider + WebAuthn — no hand-rolled OTP/3DS/crypto.
+- [ ] Implemented via certified provider + WebAuthn: no hand-rolled OTP/3DS/crypto.
 
 ## Anti-patterns to refuse
 - SMS OTP as the primary possession factor.

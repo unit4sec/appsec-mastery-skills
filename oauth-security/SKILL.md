@@ -1,12 +1,12 @@
 ---
 name: implement-oauth-securely
-description: Implement OAuth 2.x delegated authorization securely in an app — Authorization Code + PKCE, exact-match redirects, state/iss checks, hardened token validation, and sender-constrained tokens. Use when adding "log in with…", third-party API access, or any OAuth/OIDC flow. Prefer configuring a trusted provider and a maintained library over hand-rolling.
+description: Implement OAuth 2.x delegated authorization securely in an app: Authorization Code + PKCE, exact-match redirects, state/iss checks, hardened token validation, and sender-constrained tokens. Use when adding "log in with…", third-party API access, or any OAuth/OIDC flow. Prefer configuring a trusted provider and a maintained library over hand-rolling.
 ---
 
 # Implement OAuth Securely
 
 You are implementing OAuth 2.x / OpenID Connect for an application. Follow this skill
-exactly. **Do not hand-roll token parsing, signature verification, or the flow itself** —
+exactly. **Do not hand-roll token parsing, signature verification, or the flow itself** , 
 use a maintained OAuth/OIDC library and a trusted authorization server. Your job is to
 wire them correctly and enforce the checks below.
 
@@ -22,14 +22,14 @@ Ask (or infer from the repo) and state your assumptions:
 - Machine-to-machine, no user → **Client Credentials**.
 - **Never** use the Implicit grant or Resource Owner Password Credentials (deprecated; RFC 9700).
 
-## 2. Authorization request — required parameters
+## 2. Authorization request: required parameters
 - `response_type=code`
 - `client_id`
-- `redirect_uri` — pre-registered, **exact match** (no wildcards/prefixes/paths added at runtime).
-- `scope` — **least privilege** only.
-- `state` — cryptographically random, stored in the user's session; **compared on callback**.
-- `nonce` — if using OIDC (ID token replay protection).
-- `code_challenge` + `code_challenge_method=S256` — PKCE for **every** client, public and confidential.
+- `redirect_uri`: pre-registered, **exact match** (no wildcards/prefixes/paths added at runtime).
+- `scope`: **least privilege** only.
+- `state`: cryptographically random, stored in the user's session; **compared on callback**.
+- `nonce`: if using OIDC (ID token replay protection).
+- `code_challenge` + `code_challenge_method=S256`: PKCE for **every** client, public and confidential.
 
 ## 3. Callback handling
 - Reject if `state` is missing or doesn't match the stored value (CSRF/response-injection defense).
@@ -39,7 +39,7 @@ Ask (or infer from the repo) and state your assumptions:
   front-channel URL.
 
 ## 4. Token validation (on every resource-server request)
-Validate JWTs with a maintained library and an **explicit** policy — never trust the token's own header:
+Validate JWTs with a maintained library and an **explicit** policy: never trust the token's own header:
 - **`algorithms` allow-list** (e.g. `["RS256"]` or `["ES256"]`). Reject `none` and any HMAC alg for
   asymmetric keys (prevents alg-confusion, CWE-347).
 - **`iss`** equals a trusted issuer.
@@ -78,7 +78,7 @@ Validate JWTs with a maintained library and an **explicit** policy — never tru
 - [ ] Short access tokens; refresh rotation + reuse detection.
 - [ ] Sender-constrained (DPoP/mTLS) and/or audience-bound where feasible.
 - [ ] Tokens stored in secure, non-JS-readable storage.
-- [ ] Implemented via a maintained library + configured provider — no custom token verification.
+- [ ] Implemented via a maintained library + configured provider: no custom token verification.
 
 ## Anti-patterns to refuse
 - Trusting the JWT `alg` header / using a public key as an HMAC secret.
