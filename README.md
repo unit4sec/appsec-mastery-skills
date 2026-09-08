@@ -38,5 +38,6 @@ you act on it without hand-rolling the dangerous parts.
 | Root, Jailbreak & Emulator Detection _(Mobile)_ | [`root-jailbreak-emulator-detection/SKILL.md`](root-jailbreak-emulator-detection/SKILL.md) | Root/Jailbreak/Emulator Detection |
 | Code Obfuscation _(Mobile)_ | [`code-obfuscation/SKILL.md`](code-obfuscation/SKILL.md) | Code Obfuscation |
 | RASP & Hook Detection _(Mobile)_ | [`rasp-hook-detection/SKILL.md`](rasp-hook-detection/SKILL.md) | RASP Parts 1–2 |
+| Repackaging Prevention _(Mobile)_ | [`repackaging-prevention/SKILL.md`](repackaging-prevention/SKILL.md) | Repackaging Prevention |
 
 _More topics are added lecture by lecture as the course grows._
