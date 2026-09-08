@@ -35,5 +35,6 @@ you act on it without hand-rolling the dangerous parts.
 | Bot Management, CAPTCHA & Fingerprinting | [`captcha-device-fingerprinting/SKILL.md`](captcha-device-fingerprinting/SKILL.md) | CAPTCHA Parts 1–2 |
 | Mutual TLS (mTLS) | [`mutual-tls/SKILL.md`](mutual-tls/SKILL.md) | Mutual TLS Parts 1–2 |
 | Payload & Field-Level Encryption | [`payload-field-encryption/SKILL.md`](payload-field-encryption/SKILL.md) | Payload Encryption Parts 1–2 |
+| Root, Jailbreak & Emulator Detection _(Mobile)_ | [`root-jailbreak-emulator-detection/SKILL.md`](root-jailbreak-emulator-detection/SKILL.md) | Root/Jailbreak/Emulator Detection |
 
 _More topics are added lecture by lecture as the course grows._
