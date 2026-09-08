@@ -40,5 +40,6 @@ you act on it without hand-rolling the dangerous parts.
 | RASP & Hook Detection _(Mobile)_ | [`rasp-hook-detection/SKILL.md`](rasp-hook-detection/SKILL.md) | RASP Parts 1–2 |
 | Repackaging Prevention _(Mobile)_ | [`repackaging-prevention/SKILL.md`](repackaging-prevention/SKILL.md) | Repackaging Prevention |
 | App Attestation _(Mobile)_ | [`app-attestation/SKILL.md`](app-attestation/SKILL.md) | App Attestation Parts 1–2 |
+| Hardware-Backed Key Storage _(Mobile)_ | [`hardware-backed-key-storage/SKILL.md`](hardware-backed-key-storage/SKILL.md) | TEE / StrongBox / Secure Enclave (Parts 1–3) |
 
 _More topics are added lecture by lecture as the course grows._
