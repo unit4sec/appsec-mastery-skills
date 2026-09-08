@@ -39,5 +39,6 @@ you act on it without hand-rolling the dangerous parts.
 | Code Obfuscation _(Mobile)_ | [`code-obfuscation/SKILL.md`](code-obfuscation/SKILL.md) | Code Obfuscation |
 | RASP & Hook Detection _(Mobile)_ | [`rasp-hook-detection/SKILL.md`](rasp-hook-detection/SKILL.md) | RASP Parts 1–2 |
 | Repackaging Prevention _(Mobile)_ | [`repackaging-prevention/SKILL.md`](repackaging-prevention/SKILL.md) | Repackaging Prevention |
+| App Attestation _(Mobile)_ | [`app-attestation/SKILL.md`](app-attestation/SKILL.md) | App Attestation Parts 1–2 |
 
 _More topics are added lecture by lecture as the course grows._
