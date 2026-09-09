@@ -42,5 +42,6 @@ you act on it without hand-rolling the dangerous parts.
 | App Attestation _(Mobile)_ | [`app-attestation/SKILL.md`](app-attestation/SKILL.md) | App Attestation Parts 1–2 |
 | Hardware-Backed Key Storage _(Mobile)_ | [`hardware-backed-key-storage/SKILL.md`](hardware-backed-key-storage/SKILL.md) | TEE / StrongBox / Secure Enclave (Parts 1–3) |
 | Static Sensitive Data Security _(Mobile)_ | [`static-sensitive-data/SKILL.md`](static-sensitive-data/SKILL.md) | Static Sensitive Data |
+| SSL Pinning _(Mobile)_ | [`ssl-pinning/SKILL.md`](ssl-pinning/SKILL.md) | SSL Pinning Parts 1–2 |
 
 _More topics are added lecture by lecture as the course grows._
