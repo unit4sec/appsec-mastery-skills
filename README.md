@@ -43,5 +43,6 @@ you act on it without hand-rolling the dangerous parts.
 | Hardware-Backed Key Storage _(Mobile)_ | [`hardware-backed-key-storage/SKILL.md`](hardware-backed-key-storage/SKILL.md) | TEE / StrongBox / Secure Enclave (Parts 1–3) |
 | Static Sensitive Data Security _(Mobile)_ | [`static-sensitive-data/SKILL.md`](static-sensitive-data/SKILL.md) | Static Sensitive Data |
 | SSL Pinning _(Mobile)_ | [`ssl-pinning/SKILL.md`](ssl-pinning/SKILL.md) | SSL Pinning Parts 1–2 |
+| Screenshot & Screen-Sharing Protection _(Mobile)_ | [`screenshot-screen-sharing/SKILL.md`](screenshot-screen-sharing/SKILL.md) | Screenshot & Screen Sharing |
 
 _More topics are added lecture by lecture as the course grows._
