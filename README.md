@@ -45,5 +45,6 @@ you act on it without hand-rolling the dangerous parts.
 | SSL Pinning _(Mobile)_ | [`ssl-pinning/SKILL.md`](ssl-pinning/SKILL.md) | SSL Pinning Parts 1–2 |
 | Screenshot & Screen-Sharing Protection _(Mobile)_ | [`screenshot-screen-sharing/SKILL.md`](screenshot-screen-sharing/SKILL.md) | Screenshot & Screen Sharing |
 | Overlay Attacks & Accessibility Abuse _(Mobile)_ | [`overlay-accessibility/SKILL.md`](overlay-accessibility/SKILL.md) | Overlay & Accessibility |
+| Keyboard Cache & Clipboard Security _(Mobile)_ | [`keyboard-clipboard/SKILL.md`](keyboard-clipboard/SKILL.md) | Keyboard & Clipboard |
 
 _More topics are added lecture by lecture as the course grows._
