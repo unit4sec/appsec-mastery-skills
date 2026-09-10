@@ -47,5 +47,6 @@ you act on it without hand-rolling the dangerous parts.
 | Overlay Attacks & Accessibility Abuse _(Mobile)_ | [`overlay-accessibility/SKILL.md`](overlay-accessibility/SKILL.md) | Overlay & Accessibility |
 | Keyboard Cache & Clipboard Security _(Mobile)_ | [`keyboard-clipboard/SKILL.md`](keyboard-clipboard/SKILL.md) | Keyboard & Clipboard |
 | Activation & Device Binding _(Mobile)_ | [`device-binding/SKILL.md`](device-binding/SKILL.md) | Device Binding |
+| Deep Link & Intent Hijacking _(Mobile)_ | [`deep-link-intent/SKILL.md`](deep-link-intent/SKILL.md) | Deep Link & Intent Hijacking |
 
 _More topics are added lecture by lecture as the course grows._
