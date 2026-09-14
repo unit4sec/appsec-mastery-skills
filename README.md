@@ -48,5 +48,6 @@ you act on it without hand-rolling the dangerous parts.
 | Keyboard Cache & Clipboard Security _(Mobile)_ | [`keyboard-clipboard/SKILL.md`](keyboard-clipboard/SKILL.md) | Keyboard & Clipboard |
 | Activation & Device Binding _(Mobile)_ | [`device-binding/SKILL.md`](device-binding/SKILL.md) | Device Binding |
 | Deep Link & Intent Hijacking _(Mobile)_ | [`deep-link-intent/SKILL.md`](deep-link-intent/SKILL.md) | Deep Link & Intent Hijacking |
+| WebView & JS-Bridge Security _(Mobile)_ | [`webview-jsbridge/SKILL.md`](webview-jsbridge/SKILL.md) | WebView & JS-Bridge |
 
 _More topics are added lecture by lecture as the course grows._
