@@ -1,6 +1,6 @@
 ---
-name: implement-strong-customer-authentication
-description: Implement Strong Customer Authentication (SCA) and dynamic linking for payments/high-risk actions: 2+ independent factors from different categories, phishing-resistant factors, transaction-bound approval (amount+payee signed), risk-based step-up, and 3-D Secure 2 integration. Use when building payment flows, PSD2-regulated actions, or high-value confirmations. Prefer a certified PSP/3DS provider + platform authenticators over hand-rolled OTP.
+name: "implement-strong-customer-authentication"
+description: "Implement Strong Customer Authentication (SCA) and dynamic linking for payments/high-risk actions: 2+ independent factors from different categories, phishing-resistant factors, transaction-bound approval (amount+payee signed), risk-based step-up, and 3-D Secure 2 integration. Use when building payment flows, PSD2-regulated actions, or high-value confirmations. Prefer a certified PSP/3DS provider + platform authenticators over hand-rolled OTP."
 ---
 
 # Implement Strong Customer Authentication (SCA)

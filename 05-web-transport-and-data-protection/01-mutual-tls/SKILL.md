@@ -1,6 +1,6 @@
 ---
-name: implement-mutual-tls
-description: Add mutual TLS (mTLS) so BOTH sides authenticate with certificates, not just the server. Use for service-to-service (microservices, zero trust, service mesh), B2B partner APIs, high-value financial APIs, and mobile/device identity (provision a client cert at activation, store the key in the secure keystore). mTLS proves WHO is connecting via proof of private-key possession (not replayable like a bearer token) and makes traffic hard to intercept with a MITM proxy; combine it with tokens/OAuth for WHAT they may do (RFC 8705 binds a token to the client cert). The hard part is the PKI lifecycle: issue, distribute, rotate, revoke; prefer short-lived certs and automate with a service mesh. NOT for the open consumer web. Authentication is not authorization.
+name: "implement-mutual-tls"
+description: "Add mutual TLS (mTLS) so BOTH sides authenticate with certificates, not just the server. Use for service-to-service (microservices, zero trust, service mesh), B2B partner APIs, high-value financial APIs, and mobile/device identity (provision a client cert at activation, store the key in the secure keystore). mTLS proves WHO is connecting via proof of private-key possession (not replayable like a bearer token) and makes traffic hard to intercept with a MITM proxy; combine it with tokens/OAuth for WHAT they may do (RFC 8705 binds a token to the client cert). The hard part is the PKI lifecycle: issue, distribute, rotate, revoke; prefer short-lived certs and automate with a service mesh. NOT for the open consumer web. Authentication is not authorization."
 ---
 
 # Implement Mutual TLS (mTLS)

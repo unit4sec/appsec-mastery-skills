@@ -1,6 +1,6 @@
 ---
-name: implement-bot-management
-description: Stop bots and abuse the modern way. Do NOT ship a puzzle CAPTCHA that every user must solve (AI solves reCAPTCHA v2 at ~100%, humans at 50-85%). Default to invisible, risk-based, attestation-backed verification (Cloudflare Turnstile / Private Access Tokens), keep a visible challenge only as a step-up for high risk, and ALWAYS verify the token server-side (siteverify). Layer device fingerprinting (network JA3/JA4, browser canvas/WebGL/audio, behavioral, session) into a risk score that drives allow / step-up / deny. Use for login, signup, password-reset, checkout, and other abuse-prone or session-less endpoints. Treat every signal as a signal, not proof, and respect GDPR/ePrivacy: security can rely on legitimate interest, marketing needs consent.
+name: "implement-bot-management"
+description: "Stop bots and abuse the modern way. Do NOT ship a puzzle CAPTCHA that every user must solve (AI solves reCAPTCHA v2 at ~100%, humans at 50-85%). Default to invisible, risk-based, attestation-backed verification (Cloudflare Turnstile / Private Access Tokens), keep a visible challenge only as a step-up for high risk, and ALWAYS verify the token server-side (siteverify). Layer device fingerprinting (network JA3/JA4, browser canvas/WebGL/audio, behavioral, session) into a risk score that drives allow / step-up / deny. Use for login, signup, password-reset, checkout, and other abuse-prone or session-less endpoints. Treat every signal as a signal, not proof, and respect GDPR/ePrivacy: security can rely on legitimate interest, marketing needs consent."
 ---
 
 # Implement Bot Management, Modern CAPTCHA & Device Fingerprinting

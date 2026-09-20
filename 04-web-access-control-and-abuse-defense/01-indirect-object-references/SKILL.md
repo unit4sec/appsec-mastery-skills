@@ -1,6 +1,6 @@
 ---
-name: secure-object-access
-description: Reference objects safely and eliminate IDOR/BOLA by design. Prefer server-indexed access (the client never supplies a global ID); if a reference must be exposed make it opaque (UUID/ULID), keep it in the POST body not the URL, and for public/session-less access use an encrypted or signed, expiring, revocable token (presigned-URL pattern). Always authorize server-side. Use for any endpoint that takes an object id, "my resources" APIs, and shareable public links.
+name: "secure-object-access"
+description: "Reference objects safely and eliminate IDOR/BOLA by design. Prefer server-indexed access (the client never supplies a global ID); if a reference must be exposed make it opaque (UUID/ULID), keep it in the POST body not the URL, and for public/session-less access use an encrypted or signed, expiring, revocable token (presigned-URL pattern). Always authorize server-side. Use for any endpoint that takes an object id, \"my resources\" APIs, and shareable public links."
 ---
 
 # Secure Object Access (eliminate IDOR/BOLA by design)

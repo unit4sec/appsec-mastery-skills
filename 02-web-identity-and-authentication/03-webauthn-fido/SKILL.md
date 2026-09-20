@@ -1,6 +1,6 @@
 ---
-name: implement-webauthn-passkeys
-description: Implement WebAuthn / FIDO2 passkeys for phishing-resistant login: registration (attestation) and authentication (assertion) ceremonies with correct challenge, origin/RP ID, user-verification, and signature-counter checks. Use when adding passkeys, passwordless login, or a phishing-resistant second factor. Prefer a maintained WebAuthn library; never hand-roll the crypto/verification.
+name: "implement-webauthn-passkeys"
+description: "Implement WebAuthn / FIDO2 passkeys for phishing-resistant login: registration (attestation) and authentication (assertion) ceremonies with correct challenge, origin/RP ID, user-verification, and signature-counter checks. Use when adding passkeys, passwordless login, or a phishing-resistant second factor. Prefer a maintained WebAuthn library; never hand-roll the crypto/verification."
 ---
 
 # Implement WebAuthn / Passkeys

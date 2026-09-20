@@ -1,6 +1,6 @@
 ---
-name: implement-oauth-securely
-description: Implement OAuth 2.x delegated authorization securely in an app: Authorization Code + PKCE, exact-match redirects, state/iss checks, hardened token validation, and sender-constrained tokens. Use when adding "log in with…", third-party API access, or any OAuth/OIDC flow. Prefer configuring a trusted provider and a maintained library over hand-rolling.
+name: "implement-oauth-securely"
+description: "Implement OAuth 2.x delegated authorization securely in an app: Authorization Code + PKCE, exact-match redirects, state/iss checks, hardened token validation, and sender-constrained tokens. Use when adding \"log in with…\", third-party API access, or any OAuth/OIDC flow. Prefer configuring a trusted provider and a maintained library over hand-rolling."
 ---
 
 # Implement OAuth Securely

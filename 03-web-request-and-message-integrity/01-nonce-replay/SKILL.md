@@ -1,6 +1,6 @@
 ---
-name: implement-replay-protection
-description: Add replay protection to requests/messages so a captured, valid, signed request cannot be re-sent (CWE-294). Combines a timestamp skew window with a single-use nonce ledger, correct check order, and idempotency keys for safe retries. Use for payments, webhooks, OTPs, and signed APIs. Do the crypto with a maintained library; get the ORDER and SCOPE right.
+name: "implement-replay-protection"
+description: "Add replay protection to requests/messages so a captured, valid, signed request cannot be re-sent (CWE-294). Combines a timestamp skew window with a single-use nonce ledger, correct check order, and idempotency keys for safe retries. Use for payments, webhooks, OTPs, and signed APIs. Do the crypto with a maintained library; get the ORDER and SCOPE right."
 ---
 
 # Implement Replay Protection

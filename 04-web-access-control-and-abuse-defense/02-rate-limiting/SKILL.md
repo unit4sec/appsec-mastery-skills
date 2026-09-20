@@ -1,6 +1,6 @@
 ---
-name: implement-rate-limiting
-description: Add rate limiting to an app the right way. Enforce it CENTRALLY at an API gateway or dedicated service (not scattered per microservice), use a token-bucket algorithm (not a naive counter) backed by a shared atomic store, key by session/account when authenticated and IP only pre-auth, return 429 + Retry-After, and require a CAPTCHA on critical session-less endpoints. Use for login/abuse-prone routes, expensive APIs, and DoS/cost protection. Complements auth, never replaces it.
+name: "implement-rate-limiting"
+description: "Add rate limiting to an app the right way. Enforce it CENTRALLY at an API gateway or dedicated service (not scattered per microservice), use a token-bucket algorithm (not a naive counter) backed by a shared atomic store, key by session/account when authenticated and IP only pre-auth, return 429 + Retry-After, and require a CAPTCHA on critical session-less endpoints. Use for login/abuse-prone routes, expensive APIs, and DoS/cost protection. Complements auth, never replaces it."
 ---
 
 # Implement Rate Limiting

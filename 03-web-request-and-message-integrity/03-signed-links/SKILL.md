@@ -1,6 +1,6 @@
 ---
-name: implement-signed-action-links
-description: Build secure server-generated action links (email verification, password reset, magic login, invites, one-click confirms). Treats the link as a bearer credential with high entropy, short TTL, single use, purpose and account binding, safe redemption (GET renders, POST acts), and leak defenses. Use for any emailed/tokenized action URL. Get the five properties and the redeem-then-invalidate order right.
+name: "implement-signed-action-links"
+description: "Build secure server-generated action links (email verification, password reset, magic login, invites, one-click confirms). Treats the link as a bearer credential with high entropy, short TTL, single use, purpose and account binding, safe redemption (GET renders, POST acts), and leak defenses. Use for any emailed/tokenized action URL. Get the five properties and the redeem-then-invalidate order right."
 ---
 
 # Implement Signed / Dynamic Action Links
